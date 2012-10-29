@@ -1,6 +1,9 @@
-
+<% if @board_position == nil %>
+<%= "No Board Position #{@position}"%>
+<% else %>
 <li>
 	<li>Board Position Number: <%= @board_position.startingpostionnumber %></li>
 	<li>Board Positions<%= @board_position.startingposition %></li>
 	<li>Comments: <%= @board_position.comments %></li>
 </li>
+<% end %>

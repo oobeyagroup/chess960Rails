@@ -5,7 +5,8 @@ def discuss
 end
 
 def show
-  @board_position = Startingpositiondiscussion.where(:startingpostionnumber => params[:spid].to_i).first
+  @position = params[:spid].to_i
+  @board_position = Startingpositiondiscussion.where(:startingpostionnumber => @position).first
 
 end
 
