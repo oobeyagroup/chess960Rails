@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  startingpostionnumber: 1
+  startingposition: MyString
+  comments: MyString
+
+two:
+  startingpostionnumber: 1
+  startingposition: MyString
+  comments: MyString

@@ -1,0 +1,9 @@
+<ul>
+<% @board_positions.each do |board_position| %>
+<li>
+	<li><%= board_position.startingpostionnumber %></li>
+	<li><%= board_position.startingposition %></li>
+	<li><%= board_position.comments %></li>
+</li>	
+<% end %>
+</ul>
